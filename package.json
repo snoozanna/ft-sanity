@@ -1,0 +1,51 @@
+{
+  "name": "first-trimester-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "snoozanna",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "npx sanity start",
+    "build": "npx sanity build",
+    "dev": "npx sanity dev"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
+  },
+  "dependencies": {
+    "@sanity/components": "1.150.7",
+    "@sanity/google-maps-input": "1.150.1",
+    "@sanity/structure": "1.150.1",
+    "@sanity/ui": "^1",
+    "@sanity/vision": "^3.15.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^3.11.0",
+    "sanity": "^3.15.1",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "prettier": "^2.1.1",
+    "rxjs": "^7.8.0"
+  }
+}
